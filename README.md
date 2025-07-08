@@ -22,12 +22,12 @@ Each script produces a JSON file following this **standard format**:
 ```json
 {
   "10428": [
-    {"from": "Alice", "message_id": 1, "message": "Hi!"},
-    {"from": "Bob", "message_id": 2, "message": "Hello!"},
+    {"from": "Client", "message_id": 1, "message": "Hi!"},
+    {"from": "Agent", "message_id": 2, "message": "Hello!"},
     ...
   ],
   "56789": [
-    {"from": "Carol", "message_id": 1, "message": "Good morning."},
+    {"from": "Agent", "message_id": 1, "message": "Good morning."},
     ...
   ]
 }
